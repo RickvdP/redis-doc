@@ -403,7 +403,7 @@ disconnected form the master for more than:
 
     (down-after-milliseconds * 10) + milliseconds_since_master_is_in_SDOWN_state
 
-Is considered to be not reliable and is discareded at all.
+Is considered to be not reliable and is disregarded at all.
 
 The slave selection only consider the slaves that passed the above test,
 and sorts it based on the above criteria, in the following order.
